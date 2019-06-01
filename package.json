@@ -1,6 +1,6 @@
 {
   "name": "stencil-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "@stencil/core": "1.0.0-beta.8"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/sass": "^0.2.3"
+  }
 }

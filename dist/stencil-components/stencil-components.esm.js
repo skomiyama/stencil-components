@@ -1,1 +1,1 @@
-import{a as s,b as e}from"./p-323204c8.js";s().then(s=>e([["p-xpqewvbu",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],{resourcesUrl:s}));
+import{a as e,b as t}from"./p-4a95eb13.js";e().then(e=>t([["p-njgftfyg",[[1,"my-component",{first:[1],middle:[1],last:[1]}],[1,"timer-component",{timeLeft:[32]}]]]],{resourcesUrl:e}));

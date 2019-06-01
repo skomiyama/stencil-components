@@ -23,6 +23,7 @@ export namespace Components {
     */
     'middle': string;
   }
+  interface TimerComponent {}
 }
 
 declare global {
@@ -33,8 +34,15 @@ declare global {
     prototype: HTMLMyComponentElement;
     new (): HTMLMyComponentElement;
   };
+
+  interface HTMLTimerComponentElement extends Components.TimerComponent, HTMLStencilElement {}
+  var HTMLTimerComponentElement: {
+    prototype: HTMLTimerComponentElement;
+    new (): HTMLTimerComponentElement;
+  };
   interface HTMLElementTagNameMap {
     'my-component': HTMLMyComponentElement;
+    'timer-component': HTMLTimerComponentElement;
   }
 }
 
@@ -53,9 +61,11 @@ declare namespace LocalJSX {
     */
     'middle'?: string;
   }
+  interface TimerComponent extends JSXBase.HTMLAttributes<HTMLTimerComponentElement> {}
 
   interface IntrinsicElements {
     'my-component': MyComponent;
+    'timer-component': TimerComponent;
   }
 }
 

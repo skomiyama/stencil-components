@@ -1,1 +1,0 @@
-System.register(["./p-1dedd50c.system.js"],function(e,t){"use strict";var s,n;return{setters:[function(e){s=e.a;n=e.b}],execute:function(){s().then(function(e){return n([["p-bqgkxfug.system",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],{resourcesUrl:e})})}}});

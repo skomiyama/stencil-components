@@ -1,6 +1,7 @@
 {
   "entries": [
-    "components/my-component/my-component.js"
+    "components/my-component/my-component.js",
+    "components/timer/timer.js"
   ],
   "compiler": {
     "name": "@stencil/core",
