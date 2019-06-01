@@ -1,0 +1,12 @@
+{
+  "entries": [
+    "components/my-component/my-component.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.0.0-beta.8",
+    "typescriptVersion": "3.5.1"
+  },
+  "collections": [],
+  "bundles": []
+}
