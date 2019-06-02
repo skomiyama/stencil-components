@@ -1,6 +1,1 @@
-import { a as patchBrowser, b as globals, c as bootstrapLazy } from './stencil-components-ea49fb3f.js';
-
-patchBrowser().then(resourcesUrl => {
-  globals();
-  return bootstrapLazy([["my-component",[[1,"my-component",{"first":[1],"middle":[1],"last":[1]}]]],["timer-component",[[1,"timer-component",{"timeLeft":[32]}]]]], { resourcesUrl });
-});
+import{a as e,b as t}from"./p-4a95eb13.js";e().then(e=>t([["p-tccbcedv",[[1,"my-component",{first:[1],middle:[1],last:[1]}],[1,"timer-component",{timeLeft:[32]}]]]],{resourcesUrl:e}));

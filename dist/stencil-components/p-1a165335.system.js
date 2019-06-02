@@ -1,0 +1,1 @@
+System.register(["./p-65a13e82.system.js"],function(t,e){"use strict";var n,s;return{setters:[function(t){n=t.a;s=t.b}],execute:function(){n().then(function(t){return s([["p-qa8a8btw.system",[[1,"my-component",{first:[1],middle:[1],last:[1]}],[1,"timer-component",{timeLeft:[32]}]]]],{resourcesUrl:t})})}}});
